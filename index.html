@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>StartUp Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!---------------- Header Section ----------------------->
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="Startup logo" height="24" width="30" class="d-inline-block align-text-top" />
+          StartupLanding
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Adversite
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Supports
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+          <div>
+            <button class="btn btn-outline-secondary btn-registery" type="submit">Register Now</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!---------------- Main Section ------------------------->
+  <main class="container-fluid">
+    <div class="row">
+      <div class="info-section col">
+        <h3> Great software is  <br/> built with amazing <br/> developers</h3>
+        <P> We help build and manage a team of world-class <br/> developers to bring your vision to life</P>
+        <form class="row g-3">
+          <div class="col-auto">
+            <input name="subscribe" id="subscribe" placeholder="Subscribe newsletter" class="form-control">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-outline-secondary btn-subscribe mb-3">Subscribe</button>
+          </div>
+        </form>
+        <div class="sponsored-section d-flex"><span class="">Sponsored by:</span>
+          <div class="spon-img">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAcCAMAAACgTerKAAABFFBMVEUAAACFlamnscF+jaO2vsm3vcm3vsm1vceBkqa5v8uytMW2vcmltbm5vcm3vsmvu8O3vsm2vci2u8mksMC3v8q3vsi4vsi2vNK3vsm2vcq3vsm3vsq3vsq3vsm3vsm3v8q2vsm4vsmxusa3v8q3v8m3vcmXpLaHlqq3vsqFlam4v8qosLm4v8mOnK+4vsq3v8m3v8m4vsuwusWHmKm2vsm3v8mnssCnssGFmKu3vsnGzs63vsm3vsq3vsmFlqmHlqq3vsiFl6uElae3vsi3vsqLma24wMqFlaiElKmFlKq4wMqns8CFlaqZo7W3v8m3v8mfq7u3vsiosMCFlaqisb2FkKamsL+pr8GHmaulsL+Yp7e3vskdK20rAAAAW3RSTlMAgICAzKqLYIAsDNUEJvMb7C0UfJplNAj8+e7m4tnFn4BWIfbAln19e3hOEKR7cGpfSjEj3a91bW1JBry5nnNiRSwd+9J2dWZTTDw6Mia1hXtbTj4qF2RWRkRDcuYnSgAAAxhJREFUSMe11dd22kAQBuBBEcSoItFrQDTTiwEHXMBxr3FNm/d/j8xqsYxEfBx88H+BfRaYT6NZLUDZqvqc1KYPT/AROfe5cnoA649y5vNka/1IY+pFzpS1I1v7XmR//a0cVL1I7XrtyBWvvPGSmqsT5An5795zFwOIfvrzixufXlL740U4U1DejZwuIS3hUnEhpb29YQYx9fndyP4SUhF+mC6EijfGGuIQWExVgjcjqeYiwue+YGyEhdG1B+EfTwIYgRAtiJsSlGX5Bih3sizGhrJsFOREIttpMCEvstsbMJ4RyedFWoIQflxGoogIZi6BLMV2PE+vrKUImUEquplBSuqESrYPkSVRkubIlRdphQVhZC0jZaqgBGhA0QK9ZmYxGbFO62lMdhhSPMoHBtStCoUUhtpjhp7MkQfPSGpkCNv6EqLSd3YadI8u6FLTmOhKTcTvABZiNsaQozF1m0bsQEeWAwATqh+ZI+cupFphhvAz7kJEvz+nIabr9kSDsVmGwXVSdYhSqThD2vRmPEI14wRYweCM/v/CEeWMI7Xj4+NWhQg7l/96TpJtGkG3mRPl9CFDzCQOLljZLjCkDpRNxF0d1EhJFNOagzzxx6QiLGZbcSMDURRLgRhtZBpMSNzZ1RgCTZq2IaIm2UjPQTopTBzldrMOwo/H6u2iMeqDG8kbhmExuEdT7hq6nrWRaBH99RSWwEY69L5SppqSjAl/X9XzDsKPx1Z4sQ8LPIjzpH+mrgjTeSdqDrUyJqMcyVGnhQE1B9RtnbpuOsiVz4OMfuvwKlIoYrHbr/v52oTmkaG9xZFkrn1CHWIMNEw0+/1yykHOF0ay3dfNiQvwInoTWbI7fC2GlEicI8MQUjTa1XmNH9sOMl1A7hUv4EXoDhURb3p+vhZndbvAkUI0REbeBDCZko4WHKRmI7fOxn0zZvDl8FTY0SzNkR7ELVV6Ph4t54Kd43FkI4+wUnQjesiu00FezfQrC5+7uRqyh5SS8R9I4xvlQLAzWR3JXvBR0VE/e+PjFt9csFqM8Vhd4Qf5mhnhe/ig/AWRlLSEKMz14AAAAABJRU5ErkJggg=="
+              loading="lazy" width="100" height="28" alt="">
+          </div>
+          <div class="spon-img">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAcCAMAAAAnfAPMAAAApVBMVEUAAAC3vsm2u863vsmvvs61v8qxvMW3vsm4v8m3wMi3vsm1vci2v8m3vsm3vsm3vsm3vsm3vsm3vsm3vsm4vsm3vsm3vsm3vsm3vsm3v8m3v8q3vsm3vsm3vsq3vsm3vsq5vce5xc23vsm3vsq4vsq4v8u3vsm3vsq3vsi2vsm3vsq4v8i2v8m3vsq2vci0wce4vsm3v8q4v8m4vsm2vMq3vsm3vsnyDwYgAAAANnRSTlMA/QX6DEMR47Az9hoVoPC1Z/PszqXn3tnUdybpuotgTiIImj45H8iAfHFbSC+oVQrDv5KIK63B8zHUAAADMUlEQVRIx62V13YiMRBEpYlMzgkGxuScDNT/f9q2pDH2ev3iPdQDnBbqK6m6JZiU5jRRmSRltD1o7Nfyu875Ic1a1zqk9Cz+PXaepvn539EaAB9VVcoBRN5vqSYwML4POhmAutkvFt26BLLlK6hvNWB/nNvYHH32Cuo74E6eZk499grqPITbfK3QS6gbHcXbz7M1b/jXZMv7Fk6/USnDUkMtMP4ROQ9CgNfb3pL7uOQUNsu+GqKwYW6OZ7dzTzVOrQ5ebsSMGujUxPPB6TUkR04VpNyHxDorXTV0JLHDVoa8cmFbiqo1qZrxoP0WwEFRDyl6VT47ufR1nLUJcPVFowNFFLQhjQ5ppxmQRkFEo0/qhoCrWVBxXC1Bdb5TC8+itNX8zLxtAj1m04DDPlnMiylca+wGjCa+5k/SJ3Vogwd3Ms5GsmOUPlHU5SwXGuiwvYmOUtZQa3RUxsFFqtbeiV+HI5EpFD8d2NAep8zvAhdo2QM4fhRI6q6j9m4cQX/zUqSHGIhUlb0K3OkS2OqyEF9R/QCIz6dHAfDLTqwWLtgXNbSMJeao0LAR7m/AWFPhADjFOq5MqeypXgREhNSz8V2sVkCfTT+h5ChvzjNg28dENdfAe0+l7I6oq/54X6myEfunNNYp5Xn5/ZwLR8nNi3rcOhfFsgOy55HdoRkivctwEfZU650jmclDTyUn4nCDt765cxe8YYzywpPc24Oj1ZZ0IOmI9g6sfL+EftNkqH9Ui+qbSqgxNiWWEqG3m8lkE7mAOxaLBUByMxe7FTBymLZxySfT6QZcVn9Hax/3zv742a/GFSjjhbPLqPdkS+XqonB5NZQbwwzgdhWC5tAq3kWE9QhAYJDZ5BMf1QX/pLKFDbhVHdJn36rzo80luBiYTMmbjThETXdMnctW126rSe82JQcQ5sLXeVEEVIR7lMgrfp0/K29ug2gQNHv/sxm6cXs5bu8f7/l+3K6i9aIPpyaF+cmhfjX8/d4Rw94kuFzy+I39r4yDMF9WNWOvkhlke9kSax2zl1FvgD1ZWsMmQei8iKlewvA6WLngucFehx24EEoCi71Qy+0l4aMo/vl//g8piXlUUB627wAAAABJRU5ErkJggg=="
+              loading="lazy" width="85" height="28" alt="" >
+          </div>
+          <div class="spon-img">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAAYCAMAAADteXK5AAAAS1BMVEUAAAC3vsm3u8e2vce3vsq1u8evu8+4vsm3vce3vcq2vsq2vse3vsm4vsm1vce2vci4vsm2vMm3use3v8u3v8q6v8W1xc63v8y3vsma344PAAAAGHRSTlMA3yCAv0AQ72Cfz6Bwr2CQj1Awf58wH19BMoJnAAACk0lEQVRIx72V63KzIBCGl11AIRI1aVrv/0q/PQQJn+1Mmulkf0Rfgzx7YgW1uGSEZlM+w7tsHbZtu1Z18awSwjsM/abmgqXgrt4R+jQYzIINblf+5dBDShM8YWl7sBy2R7uYc6S2Pu/KyI7DM0Yt7jnCeIzbtbT8NRvw1NWbTA171po3Lv41GyxYqhujqILwwJ5DWMXDwmvTAvFa/CfwJTvnr7LyktIKo3cuYWVP3uWaqbU4FkHXpYsw+LrW0P2tO9+hCWFrz88Mj8AuqHOf8HUvluPNuE8+ria/jL3sCqLfzBYAb9lLLYlx8dix12/YceAbYc+bsFEKk738orAzKycqMluuXpWCmKSKIPJl0QX4zGypbMiMFfY2zERRIuBFOPBTZpuaBKBbF4aSqqC/ACfxRNWZt5z62YL9bDmwPScWTveFkdcEAAUMuiOCAXILy7MPUivf8qYO8Ub/z5almy0Ff2AXEUKzNEkBWA21xV3r84mVvEaqCmdIt5FiH2fL2s+WA5uETR0blS2Q+rixR2XX908WriQ2gRo11kc/W24t7go5K7uGG/ebnc3OD4LMdW/f4uab2bap5QYsdbbExWGc22zp2VepYmW3ei9a76qS0Pp6n+5ZQKm3To8sZ+NxtswxOK05ysV3fU4hrMk6pLLB2ySc9PGxzzNa2571vysCZvHITnbRxLTZEsve4OT6861muzd20OzYYxObG1Rpmet/5uVdkSXPTvlPn1I4su3INjaMda7d1BFHVitWzCbavZWIzWZAO+utRrWYXXzNJlIbo6qVqL6Ek/e5TBGMDWPJedbpTnRRVb8R64kXzoG9IhK03kw7YewO9i/N2K9a/yl9M7u1O7ybbUY5wEt28T7Bb+0f2DxQqOZVsQoAAAAASUVORK5CYII="
+              loading="lazy" width="123" height="24" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="img-section col">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner-image-1.png" class="d-block w-100" alt="first Image">
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-image-2.png" class="d-block w-100" alt="second Image">
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-image-3.png" class="d-block w-100" alt="third Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
